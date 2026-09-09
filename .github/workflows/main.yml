@@ -2,8 +2,8 @@ name: RDP-v5.0-AzureWorkstation
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 */5 * * *'
+  # schedule:
+  #   - cron: '0 */5 * * *'
 
 concurrency:
   group: tailscale-exit-node
